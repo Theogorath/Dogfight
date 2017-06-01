@@ -18,7 +18,7 @@ public class DogfightView implements IViewSystem , Runnable{
 		
 	}
 	
-	public void run(){
+	public void run(){ // private normalement
 		
 	}
 	
