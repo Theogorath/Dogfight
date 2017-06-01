@@ -9,10 +9,10 @@ public class Plane {
 	public Plane(int player, Direction direction, Position position, String image){
 		
 	}
-	public boolean IsPlayer(int player){
+	public boolean isPlayer(int player){
 		return true;
 	}
-	public boolean Hit(){
+	public boolean hit(){
 		return true;
 	}
 }
