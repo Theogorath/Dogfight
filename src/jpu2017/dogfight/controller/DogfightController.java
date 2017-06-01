@@ -1,10 +1,15 @@
 package jpu2017.dogfight.controller;
 
+import jpu2017.dogfight.model.IDogfightModel;
+import jpu2017.dogfight.view.IViewSystem;
+
 public class DogfightController {
 	private static int TIME_SLEEP = 30;
 	private IViewSystem viewSystem;
 	private IDogfightModel dogfightModel;
-	public DogfightController(IDogfighModel dogfightModel){
+	
+	public DogfightController(IDogfightModel dogfightModel){
+		this.dogfightModel = dogfightModel;
 		
 	}
 	public void orderPerform(UserOrder userOrder){
@@ -14,6 +19,7 @@ public class DogfightController {
 		
 	}
 	public void setViewSystem(IViewSystem viewSystem){
+		this.viewSystem = viewSystem;
 		
 	}
 	private void lauchMissile(int player){
