@@ -1,18 +1,17 @@
 package jpu2017.gameframe;
 
+import java.awt.Graphics;
+import java.awt.image.ImageObserver;
+
 public interface IGraphicsBuilder {
 	
-	public void applyModelToGraphic (Graphics graphics , ImageObserver observer){
-		
-	}
+	public void applyModelToGraphic (Graphics graphics , ImageObserver observer);
 	
-	public int getGlobalWidth (){
-		return 1;
-	}
+	public int getGlobalWidth ();
 	
-	public int getGlobalHeight (){
-		return 1;
-	}
+	
+	public int getGlobalHeight ();
+	
 	
 
 }

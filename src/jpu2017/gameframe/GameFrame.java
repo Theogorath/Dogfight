@@ -1,5 +1,7 @@
 package jpu2017.gameframe;
 import java.awt.event.*;
+import java.util.Observable;
+
 import javax.swing.JFrame;
 
 

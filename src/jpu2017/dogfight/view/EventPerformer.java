@@ -5,6 +5,7 @@ import jpu2017.dogfight.controller.*;
 import jpu2017.gameframe.IEventPerformer;
 
 public class EventPerformer implements IEventPerformer {
+
 	private IOrderPerformer orderPerformer;
 	UserOrder userOrder;
 	
@@ -18,7 +19,8 @@ public class EventPerformer implements IEventPerformer {
 	}
 	
 	private UserOrder KeyCodeToUserOrder (int keyCode){
-		
+		final UserOrder KeyCodeToUserOrder = null;
+		return KeyCodeToUserOrder;
 	}
 	
 	

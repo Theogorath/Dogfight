@@ -1,5 +1,7 @@
 package jpu2017.gameframe;
 import javax.swing.*;
+
+import java.awt.Graphics;
 import java.util.*;
 
 public class GamePanel extends JPanel implements Observer {
@@ -15,6 +17,12 @@ public class GamePanel extends JPanel implements Observer {
 	}
 	
 	public void paintComponent (Graphics graphic){
+		
+	}
+
+	@Override
+	public void update(Observable o, Object arg) {
+		// TODO Auto-generated method stub
 		
 	}
 
